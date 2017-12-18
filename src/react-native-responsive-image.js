@@ -23,9 +23,7 @@ export default class ResponsiveImage extends Component {
                 onLoadEnd={this.props.onLoadEnd}
                 defaultSource={this.props.defaultSource}
                 borderRadius={this.props.borderRadius}
-            >
-                {this.props.children}
-            </Image>
+            />
         );
     }
 }
